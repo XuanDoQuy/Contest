@@ -7,7 +7,7 @@ void resolve(string s) {
     s.push_back('I');
     for (int i = 0; i < s.length(); i++) {
         if (s[i] == 'I') {
-            res[i] = num + '0';
+            res[i] = num + '0';// res = (char) (num + (int) '0');
             num++;
             int j = i - 1;
             while (s[j] == 'D'&&j>=0) {

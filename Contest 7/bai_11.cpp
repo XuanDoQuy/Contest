@@ -1,6 +1,12 @@
 #include <bits/stdc++.h>
 using namespace std;
 
+/*
+author : Do Quy Xuan
+Date : 31/5/2020
+
+*/
+
 int valueChar(char c) {
     if (c == '+' || c == '-') return 1;
     if (c == '*' || c == '/' || c == '%') return 2;
