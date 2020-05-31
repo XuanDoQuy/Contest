@@ -66,7 +66,7 @@ void resolve(string s) {
                         continue;
                     }
                     res.push_back(st.top());
-                    st.pop();
+                    st.pop();         
                 }
             }
             sign.pop();
